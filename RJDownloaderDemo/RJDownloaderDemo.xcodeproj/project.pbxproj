@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1292441BFA0A91001C5E4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1292431BFA0A91001C5E4B /* main.m */; };
+		EE1292471BFA0A91001C5E4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1292461BFA0A91001C5E4B /* AppDelegate.m */; };
+		EE12924A1BFA0A91001C5E4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1292491BFA0A91001C5E4B /* ViewController.m */; };
+		EE12924D1BFA0A91001C5E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE12924B1BFA0A91001C5E4B /* Main.storyboard */; };
+		EE12924F1BFA0A91001C5E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE12924E1BFA0A91001C5E4B /* Assets.xcassets */; };
+		EE1292521BFA0A91001C5E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1292501BFA0A91001C5E4B /* LaunchScreen.storyboard */; };
+		EE12925C1BFA0AE4001C5E4B /* RJHTTPDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EE12925B1BFA0AE4001C5E4B /* RJHTTPDownloader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE12923F1BFA0A91001C5E4B /* RJDownloaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJDownloaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1292431BFA0A91001C5E4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE1292451BFA0A91001C5E4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE1292461BFA0A91001C5E4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE1292481BFA0A91001C5E4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE1292491BFA0A91001C5E4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE12924C1BFA0A91001C5E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE12924E1BFA0A91001C5E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE1292511BFA0A91001C5E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE1292531BFA0A91001C5E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE12925A1BFA0AE4001C5E4B /* RJHTTPDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJHTTPDownloader.h; sourceTree = "<group>"; };
+		EE12925B1BFA0AE4001C5E4B /* RJHTTPDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJHTTPDownloader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE12923C1BFA0A91001C5E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE1292361BFA0A91001C5E4B = {
+			isa = PBXGroup;
+			children = (
+				EE1292411BFA0A91001C5E4B /* RJDownloaderDemo */,
+				EE1292401BFA0A91001C5E4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1292401BFA0A91001C5E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE12923F1BFA0A91001C5E4B /* RJDownloaderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE1292411BFA0A91001C5E4B /* RJDownloaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE1292591BFA0AE4001C5E4B /* RJHTTPDownloader */,
+				EE1292451BFA0A91001C5E4B /* AppDelegate.h */,
+				EE1292461BFA0A91001C5E4B /* AppDelegate.m */,
+				EE1292481BFA0A91001C5E4B /* ViewController.h */,
+				EE1292491BFA0A91001C5E4B /* ViewController.m */,
+				EE12924B1BFA0A91001C5E4B /* Main.storyboard */,
+				EE12924E1BFA0A91001C5E4B /* Assets.xcassets */,
+				EE1292501BFA0A91001C5E4B /* LaunchScreen.storyboard */,
+				EE1292531BFA0A91001C5E4B /* Info.plist */,
+				EE1292421BFA0A91001C5E4B /* Supporting Files */,
+			);
+			path = RJDownloaderDemo;
+			sourceTree = "<group>";
+		};
+		EE1292421BFA0A91001C5E4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE1292431BFA0A91001C5E4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE1292591BFA0AE4001C5E4B /* RJHTTPDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				EE12925A1BFA0AE4001C5E4B /* RJHTTPDownloader.h */,
+				EE12925B1BFA0AE4001C5E4B /* RJHTTPDownloader.m */,
+			);
+			path = RJHTTPDownloader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE12923E1BFA0A91001C5E4B /* RJDownloaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1292561BFA0A91001C5E4B /* Build configuration list for PBXNativeTarget "RJDownloaderDemo" */;
+			buildPhases = (
+				EE12923B1BFA0A91001C5E4B /* Sources */,
+				EE12923C1BFA0A91001C5E4B /* Frameworks */,
+				EE12923D1BFA0A91001C5E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RJDownloaderDemo;
+			productName = RJDownloaderDemo;
+			productReference = EE12923F1BFA0A91001C5E4B /* RJDownloaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE1292371BFA0A91001C5E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ArcSoft;
+				TargetAttributes = {
+					EE12923E1BFA0A91001C5E4B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = EE12923A1BFA0A91001C5E4B /* Build configuration list for PBXProject "RJDownloaderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE1292361BFA0A91001C5E4B;
+			productRefGroup = EE1292401BFA0A91001C5E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE12923E1BFA0A91001C5E4B /* RJDownloaderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE12923D1BFA0A91001C5E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1292521BFA0A91001C5E4B /* LaunchScreen.storyboard in Resources */,
+				EE12924F1BFA0A91001C5E4B /* Assets.xcassets in Resources */,
+				EE12924D1BFA0A91001C5E4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE12923B1BFA0A91001C5E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE12925C1BFA0AE4001C5E4B /* RJHTTPDownloader.m in Sources */,
+				EE12924A1BFA0A91001C5E4B /* ViewController.m in Sources */,
+				EE1292471BFA0A91001C5E4B /* AppDelegate.m in Sources */,
+				EE1292441BFA0A91001C5E4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE12924B1BFA0A91001C5E4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE12924C1BFA0A91001C5E4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE1292501BFA0A91001C5E4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1292511BFA0A91001C5E4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE1292541BFA0A91001C5E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE1292551BFA0A91001C5E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE1292571BFA0A91001C5E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RJDownloaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArcSoft.RJDownloaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE1292581BFA0A91001C5E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RJDownloaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArcSoft.RJDownloaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE12923A1BFA0A91001C5E4B /* Build configuration list for PBXProject "RJDownloaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1292541BFA0A91001C5E4B /* Debug */,
+				EE1292551BFA0A91001C5E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1292561BFA0A91001C5E4B /* Build configuration list for PBXNativeTarget "RJDownloaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1292571BFA0A91001C5E4B /* Debug */,
+				EE1292581BFA0A91001C5E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE1292371BFA0A91001C5E4B /* Project object */;
+}
