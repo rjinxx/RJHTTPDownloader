@@ -40,10 +40,14 @@ NSString * const URL_STRING = @"http://sanjosetransit.com/extras/SJTransit_Icons
 
         NSURL *URL = [NSURL URLWithString:URL_STRING];
         self.downloader = [[RJHTTPDownloader alloc] initWithRequestURL:URL progress:^(float percent) {
-            self.progress.progress = percent;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.progress.progress = percent;
+            });
         } completion:^(id response, NSError *error) {
-            [self.button setTitle:@"Download" forState:UIControlStateNormal];
-            if (error) self.progress.progress = 0.f;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self.button setTitle:@"Download" forState:UIControlStateNormal];
+                if (error) self.progress.progress = 0.f;
+            });
         }];
         
         [self.operationQueue addOperation:self.downloader];
