@@ -1,9 +1,5 @@
 # RJHTTPDownloader
-This is the code repository associated with blog article.
-
-RJHTTPDownloader
 Sample project for blog post.
-
 
 Demonstrated and illustrated the implementation of NSOperation with Concurrency Programming.
 
