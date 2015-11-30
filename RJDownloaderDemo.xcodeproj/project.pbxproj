@@ -314,6 +314,7 @@
 				EE1292581BFA0A91001C5E4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
